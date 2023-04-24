@@ -9,6 +9,13 @@ This is a chatbot project that uses the OpenAI API to generate responses to user
 - Displays chat history in a scrollable chat box
 - Handles errors if the API key is invalid
 
+## Demo
+
+Chat Demo :
+
+<img src="https://github.com/youssef-yasser-ali/chat-bot/blob/master/demo/demo.png?raw=true" />
+
+
 ## Getting started
 
 To run the chatbot, you will need to obtain an OpenAI API key. You can sign up for an API key on the [OpenAI website](https://openai.com/).
