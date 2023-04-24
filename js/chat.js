@@ -1,10 +1,9 @@
 import { createMessage, createLoadingAnimation } from "./messages.js";
 import { askQuestion } from "./openai.js";
-
+import { APIKEY } from "./config.js";
 const chatBox = document.querySelector(".chat-box");
 const inputBox = document.querySelector(".input-box");
 const inputField = inputBox.querySelector("input");
-const APIKEY = "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";
 
 inputBox.addEventListener("submit", sendMessage);
 
